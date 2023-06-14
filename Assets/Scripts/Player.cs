@@ -120,7 +120,7 @@ public class Player : MonoBehaviour
 
         if (playerState == PlayerState.jumping)
         {
-            GetComponent<Animator>().SetBool("isJumping", true);
+            GetComponent<Animator>().SetBool("isJumping", false);//Glitch on running always shows a jump in the end.
             GetComponent<Animator>().SetBool("isRunning", false);
         }
     }
