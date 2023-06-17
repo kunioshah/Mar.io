@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 //https://www.youtube.com/watch?v=4UUI3w_VLbU
 //I'm using this to test GitHUb.
+//https://levelup.gitconnected.com/how-to-publish-your-unity3d-html5-application-or-game-to-aws-3bb053b59d21
 
 public class Player : MonoBehaviour
 {
